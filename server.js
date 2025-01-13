@@ -14,7 +14,7 @@ const app = express();
 const PORT = 4000;
 const TOKEN = process.env.TOKEN;
 
-const allowedOrigins = ['https://mngai.vercel.app', 'https://mangai.world'];
+const allowedOrigins = ['https://fuckai.world'];
 
 app.use(
    cors({
