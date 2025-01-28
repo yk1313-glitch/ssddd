@@ -7,14 +7,14 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
 const bot1Prompt = JSON.parse(
-   fs.readFileSync('./prompts/adobe.json', 'utf8')
+   fs.readFileSync('./prompts/punk.json', 'utf8')
 );
 
 const app = express();
 const PORT = 4000;
 const TOKEN = process.env.TOKEN;
 
-const allowedOrigins = ['https://adobecoin.io'];
+const allowedOrigins = ['https://deeppunk.ink'];
 
 app.use(
    cors({
