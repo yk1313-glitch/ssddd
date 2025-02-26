@@ -7,7 +7,7 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
 const bot1Prompt = JSON.parse(
-   fs.readFileSync('./prompts/punk.json', 'utf8')
+   fs.readFileSync('./prompts/fuck.json', 'utf8')
 );
 
 const app = express();
